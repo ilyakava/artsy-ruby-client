@@ -4,7 +4,7 @@ module Artsy
       module ArtworkInventory
         include Artsy::Client::API::Parse
 
-        # Creates an artwork inventory object.
+        # Creates an artwork inventory object
         #
         # @return [Artsy::Client::Domain::ArtworkInventory]
         def create_artwork_inventory(params = {})
